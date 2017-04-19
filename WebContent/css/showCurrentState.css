@@ -1,0 +1,40 @@
+#game {
+	background-color: red;
+	display: inline-block;
+}
+
+#game_playerone {
+	background-color: blue;
+}
+
+#game_playertwo {
+	background-color: yellow;
+	transform: scaleX(-1);
+}
+
+#game_playertwo button {
+	transform: scaleX(-1);
+}
+
+#game_playertwo .playername {
+	transform: scaleX(-1);
+}
+
+.playerfield {
+	display: inline-block;
+}
+
+.playerfield button {
+	height: 40px;
+	width: 40px;
+}
+
+.singleButtonDiv {
+	background-color: white;
+	display: inline-block;
+}
+
+.kalahaButton {
+	height: 40px;
+	width: 50px;
+}

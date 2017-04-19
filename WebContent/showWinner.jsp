@@ -6,14 +6,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Winner!</title>
+<link type="text/css" href="./css/general.css" rel="stylesheet" />
 </head>
 <body>
-	Player
-	<c:out value="${currentState.winner}" />
-	has won!
-	<br />
+	<div id="text">
+		<c:out value="${currentState.winner}" />
+	</div>
+	<div id="newGame">
 		<form method="post" action="/mancala_web/MancalaServlet.html">
-		<input name="newGame" type="submit" value="New game?"/>
-	</form>
+			<input class="newGameButton" name="newGame" type="submit"
+				value="New game?" />
+		</form>
+	</div>
 </body>
 </html>
