@@ -46,9 +46,9 @@
 						<format>xml</format>
 					</formats>
 					<instrumentation>
-						<excludes>
-							<exclude>nl/sogyo/mancala/*.class</exclude>
-						</excludes>
+						<ignores>
+							<ignore>nl/sogyo/mancala/*.class</ignore>
+						</ignores>
 					</instrumentation>
 				</configuration>
 				<executions>
