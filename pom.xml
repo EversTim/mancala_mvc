@@ -45,11 +45,6 @@
 					<formats>
 						<format>xml</format>
 					</formats>
-					<instrumentation>
-						<ignores>
-							<ignore>nl/sogyo/mancala/*.class</ignore>
-						</ignores>
-					</instrumentation>
 				</configuration>
 				<executions>
 					<execution>
